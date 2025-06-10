@@ -3,28 +3,37 @@
 body {
     margin: 0;
     padding: 0;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .container {
     display: flex;
+    align-items: center;
     align-content: center;
     flex-direction: column;
     padding: 5rem;
+    height: 100%;
 }
 
-.buttonContainer {
+.buttonContainer1 {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.buttonContainer2 {
+    display: flex;
+    justify-content: center;
     flex-direction: column;
 }
 
 #changeColor {
     padding: 5px;
     text-align: center;
-    width: 100px;
-    height: 50px;
+    width: 10rem;
+    height: 5rem;
     color:azure;
     background-color: black;
     border-radius: 6px;
@@ -35,11 +44,10 @@ body {
 }
 
 #customColor {
-    margin-top: 10px;
     padding: 5px;
     text-align: center;
-    width: 100px;
-    height: 50px;
+    width: 10rem;
+    height: 5rem;
     color:azure;
     background-color: black;
     border-radius: 6px;
@@ -67,8 +75,8 @@ body {
     margin-top: 10px;
     padding: 5px;
     text-align: center;
-    width: 100px;
-    height: 50px;
+    width: 10rem;
+    height: 5rem;
     color:azure;
     background-color: black;
     border-radius: 6px;
@@ -79,11 +87,10 @@ body {
 }
 
 #customHex {
-    margin-top: 10px;
     padding: 5px;
     text-align: center;
-    width: 100px;
-    height: 50px;
+    width: 10rem;
+    height: 5rem;
     color:azure;
     background-color: black;
     border-radius: 6px;
@@ -97,8 +104,8 @@ body {
     margin-top: 10px;
     padding: 5px;
     text-align: center;
-    width: 100px;
-    height: 50px;
+    width: 10rem;
+    height: 5rem;
     color:azure;
     background-color: black;
     border-radius: 6px;
@@ -221,3 +228,5 @@ body {
     font-weight: 400;
     font-style: normal
 }
+
+
