@@ -18,6 +18,8 @@ body {
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    margin-left: auto;
+    meargin-right: auto;
 }
 
 #changeColor {
